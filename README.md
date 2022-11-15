@@ -1,0 +1,11 @@
+# PHP Code Style modules installer
+
+This script installs modules for the PHP code styling
+
+_This module requires composer and npm to be installed_
+
+## Usage
+
+```powershell
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/C010UR/php-codestyle-modules/main/install.ps1'))
+```
